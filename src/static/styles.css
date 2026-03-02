@@ -142,3 +142,27 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* nicely indented/bulleted list of signed‑up students */
+.participants-list {
+  list-style: none;          /* hide bullet points */
+  margin: 0.5em 0 0 0;
+  padding: 0;
+}
+
+.participants-list li {
+  margin-bottom: 0.25em;
+  display: flex;
+  align-items: center;
+}
+
+.remove {
+  margin-left: auto;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.remove:hover {
+  color: #ef5350;
+}
